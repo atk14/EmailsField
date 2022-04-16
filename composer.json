@@ -1,5 +1,5 @@
 {
-        "name": "atk14/email-field",
+        "name": "atk14/emails-field",
         "type": "library",
         "description": "EmailsField is a form field for entering more email addresses",
         "keywords": ["emails", "field", "forms", "atk14"],
