@@ -1,0 +1,25 @@
+{
+        "name": "atk14/email-field",
+        "type": "library",
+        "description": "EmailsField is a form field for entering more email addresses",
+        "keywords": ["emails", "field", "forms", "atk14"],
+        "homepage": "https://github.com/atk14/EmailsField",
+        "license": ["MIT"],
+        "authors": [
+                {
+                        "name": "ATK14 Development Team",
+                        "homepage": "https://github.com/orgs/atk14/people"
+                }
+        ],
+        "require": {
+                "php": ">=5.6.0",
+								"yarri/email-address-recognizer": "^0"
+        },
+        "require-dev": {
+                "atk14/tester": "*",
+                "atk14/core": "dev-master"
+        },
+        "autoload": {
+                "classmap": ["src/app/fields"]
+        }
+}
