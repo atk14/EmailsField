@@ -3,6 +3,10 @@ Change Log
 
 All notable changes to EmailsField will be documented in this file.
 
+## [0.1.4] - 2025-04-16
+
+* c48538b - [PHP8.3] Fix
+
 ## [0.1.3] - 2025-04-16
 
 * 03a5342 - Package is compatible with PHP>=7.0.0
