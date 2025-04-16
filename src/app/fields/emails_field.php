@@ -22,7 +22,7 @@ class EmailsField extends CharField {
 
 	function clean($value){
 		list($err,$value) = parent::clean($value);
-		if(!is_null($err) || !strlen($value)){ return [$err,$value]; }
+		if(!is_null($err) || !strlen((string)$value)){ return [$err,$value]; }
 
 		$ear = new Yarri\EmailAddressRecognizer($value);
 		$items = $ear->toArray();
