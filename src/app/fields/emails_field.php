@@ -1,6 +1,8 @@
 <?php
 class EmailsField extends CharField {
 
+	var $max_emails;
+
 	function __construct($options = []){
 		$options += [
 			"trim_value" => true,
