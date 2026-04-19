@@ -1,6 +1,8 @@
 EmailsField
 ===========
 
+[![Tests](https://github.com/atk14/EmailsField/actions/workflows/tests.yml/badge.svg)](https://github.com/atk14/EmailsField/actions/workflows/tests.yml)
+
 EmailsField is a form field for entering more email addresses.
 
 
