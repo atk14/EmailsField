@@ -12,12 +12,13 @@
                 }
         ],
         "require": {
-                "php": ">=7.0.0",
-								"yarri/email-address-recognizer": "^0 >=0.1.2"
+                "php": ">=7.1.0",
+                "yarri/email-address-recognizer": "^0 >=0.2"
         },
         "require-dev": {
                 "atk14/tester": "*",
-                "atk14/core": "dev-master"
+                "atk14/core": "dev-master",
+                "atk14/forms": "dev-master"
         },
         "autoload": {
                 "classmap": ["src/app/fields"]
